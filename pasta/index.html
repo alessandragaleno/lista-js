@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            font:normal 20pt Arial;
+            text-align: center;
+        }
+        header{
+            background-color: orange ;
+        }
+        .list{
+            font-family: 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+        .senac{
+            font-style: italic;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        .bx-menu{
+            grid-template-rows: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="senac">
+        <i class='bx bx-menu'></i><h1>SENAC <i class='bx bx-book-open'></i></h1><i class='bx bx-search-alt-2'></i>
+        </div>
+
+        <ul class="list">
+            <li>home</li>
+            <li>menu</li>
+            <li>sobre</li>
+        </ul>
+    </header>
+    
+    <script>
+
+        num1 = parseInt(prompt('Digite um número: '))
+        num2 = parseInt(prompt('Digite outro número: '))
+
+        alert(`Resultado da soma é: ${num1} + ${num2} = ${num1+num2}`)
+    </script>
+</body>
+</html>
